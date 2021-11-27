@@ -24,8 +24,6 @@ def sha1_hash(data):
 def choose():
     if hashinput == None:
         print("Enter hash type md5, or sha1")
-    elif hashinput.lower() != "md5" or "sha1":
-        print("Not valid hash type") 
     elif which_hash_type.lower() == "md5":
         md5_hash(data=hashinput)
     elif which_hash_type.lower() == "sha1":
